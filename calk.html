@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <title>Content Filters | CodyHouse</title>
+</head>
+
+<body>
+    <header class="cd-header">
+       <a href="oborud.html" class="buttons">Оборудование</a>
+        <a href="index.html" class="buttons">Тарифы</a>
+    </header>
+
+    <table border="1">
+        <tr style="background:#cfc;">
+            <td>Услуга:</td>
+            <td>Цена</td>
+        </tr>
+        <tr>
+            <td>СТБ
+
+                <select id="one" class="bath">
+                    <h1>ff</h1>
+                    <option value="0руб"></option>
+                    <option value="3990руб">Выкуп</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с первым selector -->
+                <input type="text" value="0руб" id="t_one" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>ОНТ
+                <select id="two" class="bath">
+                    <option value="0руб"></option>
+                    <option value="6200руб">Выкуп</option>
+                    <option value="265">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с вторым selector -->
+                <input type="text" value="0руб" id="t_two" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Андройд СТБ
+                <select id="three" class="bath">
+                    <option value="0руб"></option>
+                    <option value="4990руб">Выкуп</option>
+                    <option value="250руб">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с третьим selector -->
+                <input type="text" value="0руб" id="t_three" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Маруся
+                <select id="four" class="bath">
+                    <option value="0руб"></option>
+                    <option value="7990руб">Выкуп</option>
+                    <option value="350руб">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с третьим selector -->
+                <input type="text" value="0руб" id="t_four" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Камера внешняя
+                <select id="five" class="bath">
+                    <option value="0руб"></option>
+                    <option value="6990руб">Выкуп</option>
+                    <option value="1800руб">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с третьим selector -->
+                <input type="text" value="0руб" id="t_five" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Камера внутренняя
+                <select id="six" class="bath">
+                    <option value="0руб"></option>
+                    <option value="4990руб">Выкуп</option>
+                    <option value="350руб">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с третьим selector -->
+                <input type="text" value="0руб" id="t_six" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>Игровой роутер
+                <select id="six" class="bath">
+                    <option value="0руб"></option>
+                    <option value="8999руб">Выкуп</option>
+                    <option value="400руб">Рассрочка</option>
+                </select>
+            </td>
+            <td>
+                <!-- зависимость с третьим selector -->
+                <input type="text" value="0руб" id="t_six" class="price">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Итого
+            </td>
+            <td>
+                <!-- в этом inpute подсчет стоимости всех выбранных значений -->
+                <input type="text" value="0руб" id="t_summ">
+            </td>
+        </tr>
+    </table>
+
+<script src="mainsf.js"></script>
+</body>
+
+</html>
